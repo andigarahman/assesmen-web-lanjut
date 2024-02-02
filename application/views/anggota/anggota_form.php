@@ -3,10 +3,6 @@
   <h3>Tambah Anggota</h3>
   <form action="<?php echo $action?>" method="post">
     <div class="mb-3">
-      <label class="form-label">ID Anggota</label>
-      <input type="text" class="form-control" name="id_anggota" value="<?php echo isset($id_anggota) ? $id_anggota : ''; ?>">
-    </div>
-    <div class="mb-3">
       <label class="form-label">Nama Anggota</label>
       <input type="text" class="form-control" name="nama_anggota" value="<?php echo isset($nama_anggota) ? $nama_anggota : ''; ?>">
     </div>
